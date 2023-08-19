@@ -25,3 +25,6 @@ Using the principles of dynamics, it is possible to demonstrate the relationship
 
 The implementation of this system has been provided for various values of B in the attached Simulink files. (P2_B0.slx, P2_B2.slx, P2_B100.slx)
 
+**Part 3.** If the conditions of initial rest are not met in a differential equation, it is not possible to use the Laplace transform to solve the differential equation. Therefore, it is suggested to employ a one-sided Laplace transform for its solution.
+
+In this section, our intention is to solve a differential equation using a one-sided Laplace transform and compare the results with solving the differential equation using MATLAB commands. (P3.m)
