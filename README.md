@@ -12,3 +12,16 @@ In this repository, we intend to implement block diagrams of various linear and 
 ![image](https://github.com/ErfanPanahi/Implementation-of-System-Block-Diagram-Using-Simulink/assets/107314081/fdef80f5-8e5c-47d7-9f62-a8a1e118b9f2)
 
 Finally, the output obtained from the theoretical equations can be compared with the implemented block diagram in the Simulink environment. (P1.slx)
+
+**Part 2.** (P2) In an automobile, the wheel is connected to the body of the car through the suspension system. The suspension system is designed to reduce vibrations in the cabin when passing over obstacles. The suspension system consists of a spring and a damper, both of which compress when encountering obstacles, preventing sudden wheel movements from directly transferring to the car cabin. The spring generates a force to maintain the car cabin's desired height above the road surface, and the damper creates damping friction. The focus of this practice is on the importance of the damper's presence.
+
+![image](https://github.com/ErfanPanahi/Implementation-of-System-Block-Diagram-Using-Simulink/assets/107314081/a9255298-0d3c-41f5-b7a4-6fbbac363c6d)
+
+In this model, M represents the automotive mass that is transferred to the wheel through the suspension system. The vertical displacement of the wheel from the equilibrium point is considered as the input (x at time t), and the vertical displacement of the mass M from the equilibrium point is also considered as the output (y at time t). In fact, y(t) determines the oscillations of the car cabin.
+
+Using the principles of dynamics, it is possible to demonstrate the relationship between x(t) and y(t) as follows:
+
+![image](https://github.com/ErfanPanahi/Implementation-of-System-Block-Diagram-Using-Simulink/assets/107314081/63717f99-d701-4e37-afab-179a0609b7e2)
+
+The implementation of this system has been provided for various values of B in the attached Simulink files. (P2_B0.slx, P2_B2.slx, P2_B100.slx)
+
